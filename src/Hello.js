@@ -1,7 +1,7 @@
 //gives user a personalized greeting
 import React from 'react'
 
-const Hello = (props) => {
+const Hello = ({fname, lname}) => {
   return (
     <h1>Hello {fname} {lname}!</h1>
   )
