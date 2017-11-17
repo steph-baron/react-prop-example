@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hello = (props) => {
   return (
-    <h1>Hello {props.fname} {props.lname}!</h1>
+    <h1>Hello {fname} {lname}!</h1>
   )
 }
 
